@@ -1,0 +1,14 @@
+---
+applications:
+- name: session-managed-store-broker
+  memory: 512M
+  instances: 1
+  host: session-managed-store-broker
+  path: target/kr-1.0.0-BUILD-SNAPSHOT.war
+  metadata:
+    displayName: "Session Managed Store"
+    imageUrl: "https://pbs.twimg.com/profile_images/2758435924/f4f3f5b8cb8904937bc0c9c24faed860_400x400.jpeg"
+    longDescription: "Provides Session Managed Key-Value Store Service"
+    providerDisplayName: "Pivotal Software"
+    documentationUrl: "http://session-managed-store.cfapps.io/"
+    supportUrl: "http://session-managed-store.cfapps.io/"

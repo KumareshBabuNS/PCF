@@ -1,0 +1,7 @@
+---
+applications:
+- name: session-managed-store
+  memory: 512M
+  instances: 1
+  host: session-managed-store
+  path: target/kr-1.0.0-BUILD-SNAPSHOT.war
